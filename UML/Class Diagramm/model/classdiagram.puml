@@ -1,0 +1,81 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+interface Lockable {
+  + lock(): void
+  + unlock(): void
+  + isLocked(): boolean
+}
+
+interface Securable {
+  + isFullySecured(): boolean
+}
+
+class Door {
+  - locked: boolean
+  + lock(): void
+  + unlock(): void
+  + isLocked(): boolean
+}
+
+class Window {
+  - locked: boolean
+  + lock(): void
+  + unlock(): void
+  + isLocked(): boolean
+}
+
+class Car {
+  - doors: Door[]
+  + areAllDoorsLocked(): boolean
+  + isFullySecured(): boolean
+}
+
+class House {
+  - doors: Door[]
+  - windows: Window[]
+  + isFullySecured(): boolean
+}
+
+class SecurityService {
+  + checkSecurity(securable: Securable): string
+}
+
+' Interface implementations
+Lockable <|.. Door
+Lockable <|.. Window
+Securable <|.. Car
+Securable <|.. House
+
+' Associations
+Car "1" *-- "2..*" Door : contains
+House "1" *-- "1..*" Door : contains
+House "1" *-- "1..*" Window : contains
+
+' SecurityService uses Securable
+SecurityService ..> Securable : uses
+
+note right of Door
+  Can be locked/unlocked
+  Used by Car and House
+end note
+
+note right of Window
+  Can be locked/unlocked
+  Used by House
+end note
+
+note right of Car
+  Has multiple doors (typically 4)
+  All doors must be locked
+  to be fully secured
+end note
+
+note right of House
+  Has doors and windows
+  All must be locked to be
+  fully secured
+end note
+
+@enduml
+

@@ -1,0 +1,141 @@
+.traffic-light-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  min-width: 250px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.traffic-light-container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.location-name {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.traffic-light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #1a1a1a;
+  border-radius: 20px;
+  border: 3px solid #333;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1.5rem;
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  background: #2a2a2a;
+  transition: all 0.3s ease;
+  box-shadow: 
+    inset 0 0 20px rgba(0, 0, 0, 0.8),
+    0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.light.red {
+  background: #3a1a1a;
+}
+
+.light.yellow {
+  background: #3a3a1a;
+}
+
+.light.green {
+  background: #1a3a1a;
+}
+
+.light.active {
+  box-shadow: 
+    inset 0 0 20px rgba(255, 255, 255, 0.3),
+    0 0 30px currentColor,
+    0 0 50px currentColor,
+    0 0 70px currentColor;
+}
+
+.light.red.active {
+  background: #ff4444;
+  color: #ff4444;
+}
+
+.light.yellow.active {
+  background: #ffdd44;
+  color: #ffdd44;
+}
+
+.light.green.active {
+  background: #44ff44;
+  color: #44ff44;
+}
+
+.traffic-info {
+  text-align: center;
+  width: 100%;
+}
+
+.car-count {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.timestamp {
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (prefers-color-scheme: light) {
+  .traffic-light-container {
+    background: rgba(0, 0, 0, 0.03);
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .location-name {
+    color: #213547;
+  }
+
+  .traffic-light {
+    background: #f0f0f0;
+    border-color: #ccc;
+  }
+
+  .light {
+    background: #e0e0e0;
+  }
+
+  .light.red {
+    background: #f0d0d0;
+  }
+
+  .light.yellow {
+    background: #f0f0d0;
+  }
+
+  .light.green {
+    background: #d0f0d0;
+  }
+
+  .car-count {
+    color: #213547;
+  }
+
+  .timestamp {
+    color: #666;
+  }
+}

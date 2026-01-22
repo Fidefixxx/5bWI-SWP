@@ -1,0 +1,47 @@
+@startuml
+skinparam activity {
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+    FontSize 12
+}
+
+skinparam arrow {
+    Color DarkBlue
+}
+
+start
+
+:Security Check Process Start;
+
+:Get Securable Object;
+
+if (Object Type?) then (Car)
+    :Get all doors;
+    :Count locked doors;
+    :Count unlocked doors;
+    if (All doors locked?) then (Yes)
+        :Status = SECURED;
+    else (No)
+        :Status = UNSECURED;
+        :Report unlocked doors;
+    endif
+else (House)
+    :Get all doors;
+    :Get all windows;
+    :Count locked doors;
+    :Count locked windows;
+    if (All doors AND windows locked?) then (Yes)
+        :Status = SECURED;
+    else (No)
+        :Status = UNSECURED;
+        :Report unlocked items;
+    endif
+endif
+
+:Generate Security Report;
+:Display Report;
+
+stop
+
+@enduml
+

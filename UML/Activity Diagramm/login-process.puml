@@ -1,0 +1,61 @@
+@startuml
+skinparam activity {
+    BackgroundColor LightGreen
+    BorderColor DarkGreen
+    FontSize 12
+}
+
+skinparam arrow {
+    Color DarkGreen
+}
+
+start
+
+:User opens application;
+
+:Display Login Form;
+
+:User enters username and password;
+
+:Validate input fields;
+
+if (Fields empty?) then (Yes)
+    :Show error message;
+    :Return to login form;
+    stop
+else (No)
+endif
+
+:Send credentials to server;
+
+:Check database for user;
+
+if (User exists?) then (No)
+    :Show "Invalid credentials" error;
+    :Return to login form;
+    stop
+else (Yes)
+endif
+
+if (Password correct?) then (No)
+    :Increment failed login attempts;
+    if (Too many attempts?) then (Yes)
+        :Lock account;
+        :Show "Account locked" message;
+        stop
+    else (No)
+        :Show "Invalid password" error;
+        :Return to login form;
+        stop
+    endif
+else (Yes)
+endif
+
+:Create session;
+:Log login event;
+:Redirect to dashboard;
+
+stop
+
+@enduml
+

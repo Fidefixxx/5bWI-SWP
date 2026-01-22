@@ -1,0 +1,78 @@
+[
+  {
+    "location": "Schoren Kreuzung",
+    "timestamp": "2026-01-21T10:15:00.000Z",
+    "totalCarlastHour": 9840,
+    "carCounts": [
+      { "minute": 1, "amount": 142 }, { "minute": 2, "amount": 150 }, { "minute": 3, "amount": 155 }, { "minute": 4, "amount": 148 }, { "minute": 5, "amount": 160 },
+      { "minute": 6, "amount": 168 }, { "minute": 7, "amount": 172 }, { "minute": 8, "amount": 165 }, { "minute": 9, "amount": 158 }, { "minute": 10, "amount": 151 },
+      { "minute": 11, "amount": 149 }, { "minute": 12, "amount": 153 }, { "minute": 13, "amount": 162 }, { "minute": 14, "amount": 170 }, { "minute": 15, "amount": 176 },
+      { "minute": 16, "amount": 181 }, { "minute": 17, "amount": 175 }, { "minute": 18, "amount": 168 }, { "minute": 19, "amount": 160 }, { "minute": 20, "amount": 152 },
+      { "minute": 21, "amount": 148 }, { "minute": 22, "amount": 154 }, { "minute": 23, "amount": 161 }, { "minute": 24, "amount": 169 }, { "minute": 25, "amount": 174 },
+      { "minute": 26, "amount": 179 }, { "minute": 27, "amount": 183 }, { "minute": 28, "amount": 177 }, { "minute": 29, "amount": 170 }, { "minute": 30, "amount": 162 },
+      { "minute": 31, "amount": 156 }, { "minute": 32, "amount": 150 }, { "minute": 33, "amount": 147 }, { "minute": 34, "amount": 152 }, { "minute": 35, "amount": 160 },
+      { "minute": 36, "amount": 167 }, { "minute": 37, "amount": 173 }, { "minute": 38, "amount": 178 }, { "minute": 39, "amount": 171 }, { "minute": 40, "amount": 164 },
+      { "minute": 41, "amount": 158 }, { "minute": 42, "amount": 151 }, { "minute": 43, "amount": 149 }, { "minute": 44, "amount": 155 }, { "minute": 45, "amount": 163 },
+      { "minute": 46, "amount": 170 }, { "minute": 47, "amount": 176 }, { "minute": 48, "amount": 182 }, { "minute": 49, "amount": 175 }, { "minute": 50, "amount": 168 },
+      { "minute": 51, "amount": 162 }, { "minute": 52, "amount": 156 }, { "minute": 53, "amount": 150 }, { "minute": 54, "amount": 148 }, { "minute": 55, "amount": 154 },
+      { "minute": 56, "amount": 161 }, { "minute": 57, "amount": 169 }, { "minute": 58, "amount": 173 }, { "minute": 59, "amount": 166 }, { "minute": 60, "amount": 158 }
+    ]
+  },
+  {
+    "location": "Hauptbahnhof",
+    "timestamp": "2026-01-21T10:15:00.000Z",
+    "totalCarlastHour": 12420,
+    "carCounts": [
+      { "minute": 1, "amount": 180 }, { "minute": 2, "amount": 192 }, { "minute": 3, "amount": 205 }, { "minute": 4, "amount": 198 }, { "minute": 5, "amount": 210 },
+      { "minute": 6, "amount": 225 }, { "minute": 7, "amount": 238 }, { "minute": 8, "amount": 230 }, { "minute": 9, "amount": 220 }, { "minute": 10, "amount": 208 },
+      { "minute": 11, "amount": 200 }, { "minute": 12, "amount": 206 }, { "minute": 13, "amount": 214 }, { "minute": 14, "amount": 228 }, { "minute": 15, "amount": 240 },
+      { "minute": 16, "amount": 252 }, { "minute": 17, "amount": 245 }, { "minute": 18, "amount": 234 }, { "minute": 19, "amount": 222 }, { "minute": 20, "amount": 210 },
+      { "minute": 21, "amount": 202 }, { "minute": 22, "amount": 208 }, { "minute": 23, "amount": 218 }, { "minute": 24, "amount": 232 }, { "minute": 25, "amount": 244 },
+      { "minute": 26, "amount": 256 }, { "minute": 27, "amount": 262 }, { "minute": 28, "amount": 250 }, { "minute": 29, "amount": 238 }, { "minute": 30, "amount": 226 },
+      { "minute": 31, "amount": 214 }, { "minute": 32, "amount": 206 }, { "minute": 33, "amount": 198 }, { "minute": 34, "amount": 204 }, { "minute": 35, "amount": 212 },
+      { "minute": 36, "amount": 224 }, { "minute": 37, "amount": 236 }, { "minute": 38, "amount": 248 }, { "minute": 39, "amount": 242 }, { "minute": 40, "amount": 232 },
+      { "minute": 41, "amount": 220 }, { "minute": 42, "amount": 210 }, { "minute": 43, "amount": 202 }, { "minute": 44, "amount": 208 }, { "minute": 45, "amount": 218 },
+      { "minute": 46, "amount": 230 }, { "minute": 47, "amount": 242 }, { "minute": 48, "amount": 254 }, { "minute": 49, "amount": 246 }, { "minute": 50, "amount": 236 },
+      { "minute": 51, "amount": 226 }, { "minute": 52, "amount": 216 }, { "minute": 53, "amount": 208 }, { "minute": 54, "amount": 200 }, { "minute": 55, "amount": 206 },
+      { "minute": 56, "amount": 216 }, { "minute": 57, "amount": 228 }, { "minute": 58, "amount": 240 }, { "minute": 59, "amount": 232 }, { "minute": 60, "amount": 220 }
+    ]
+  },
+  {
+    "location": "Bezirksgericht",
+    "timestamp": "2026-01-21T10:15:00.000Z",
+    "totalCarlastHour": 6120,
+    "carCounts": [
+      { "minute": 1, "amount": 82 }, { "minute": 2, "amount": 85 }, { "minute": 3, "amount": 88 }, { "minute": 4, "amount": 90 }, { "minute": 5, "amount": 92 },
+      { "minute": 6, "amount": 95 }, { "minute": 7, "amount": 98 }, { "minute": 8, "amount": 96 }, { "minute": 9, "amount": 94 }, { "minute": 10, "amount": 91 },
+      { "minute": 11, "amount": 89 }, { "minute": 12, "amount": 92 }, { "minute": 13, "amount": 96 }, { "minute": 14, "amount": 100 }, { "minute": 15, "amount": 104 },
+      { "minute": 16, "amount": 108 }, { "minute": 17, "amount": 106 }, { "minute": 18, "amount": 102 }, { "minute": 19, "amount": 98 }, { "minute": 20, "amount": 94 },
+      { "minute": 21, "amount": 92 }, { "minute": 22, "amount": 95 }, { "minute": 23, "amount": 98 }, { "minute": 24, "amount": 102 }, { "minute": 25, "amount": 106 },
+      { "minute": 26, "amount": 110 }, { "minute": 27, "amount": 112 }, { "minute": 28, "amount": 108 }, { "minute": 29, "amount": 104 }, { "minute": 30, "amount": 100 },
+      { "minute": 31, "amount": 96 }, { "minute": 32, "amount": 92 }, { "minute": 33, "amount": 90 }, { "minute": 34, "amount": 92 }, { "minute": 35, "amount": 95 },
+      { "minute": 36, "amount": 98 }, { "minute": 37, "amount": 102 }, { "minute": 38, "amount": 106 }, { "minute": 39, "amount": 104 }, { "minute": 40, "amount": 100 },
+      { "minute": 41, "amount": 96 }, { "minute": 42, "amount": 94 }, { "minute": 43, "amount": 92 }, { "minute": 44, "amount": 95 }, { "minute": 45, "amount": 98 },
+      { "minute": 46, "amount": 102 }, { "minute": 47, "amount": 106 }, { "minute": 48, "amount": 110 }, { "minute": 49, "amount": 108 }, { "minute": 50, "amount": 104 },
+      { "minute": 51, "amount": 100 }, { "minute": 52, "amount": 98 }, { "minute": 53, "amount": 96 }, { "minute": 54, "amount": 94 }, { "minute": 55, "amount": 92 },
+      { "minute": 56, "amount": 90 }, { "minute": 57, "amount": 92 }, { "minute": 58, "amount": 95 }, { "minute": 59, "amount": 98 }, { "minute": 60, "amount": 100 }
+    ]
+  },
+  {
+    "location": "Dönerladen",
+    "timestamp": "2026-01-21T10:15:00.000Z",
+    "totalCarlastHour": 3840,
+    "carCounts": [
+      { "minute": 1, "amount": 55 }, { "minute": 2, "amount": 58 }, { "minute": 3, "amount": 60 }, { "minute": 4, "amount": 62 }, { "minute": 5, "amount": 65 },
+      { "minute": 6, "amount": 68 }, { "minute": 7, "amount": 70 }, { "minute": 8, "amount": 66 }, { "minute": 9, "amount": 62 }, { "minute": 10, "amount": 60 },
+      { "minute": 11, "amount": 58 }, { "minute": 12, "amount": 56 }, { "minute": 13, "amount": 55 }, { "minute": 14, "amount": 57 }, { "minute": 15, "amount": 60 },
+      { "minute": 16, "amount": 64 }, { "minute": 17, "amount": 68 }, { "minute": 18, "amount": 72 }, { "minute": 19, "amount": 70 }, { "minute": 20, "amount": 66 },
+      { "minute": 21, "amount": 62 }, { "minute": 22, "amount": 60 }, { "minute": 23, "amount": 58 }, { "minute": 24, "amount": 56 }, { "minute": 25, "amount": 55 },
+      { "minute": 26, "amount": 57 }, { "minute": 27, "amount": 60 }, { "minute": 28, "amount": 63 }, { "minute": 29, "amount": 66 }, { "minute": 30, "amount": 68 },
+      { "minute": 31, "amount": 70 }, { "minute": 32, "amount": 72 }, { "minute": 33, "amount": 68 }, { "minute": 34, "amount": 64 }, { "minute": 35, "amount": 60 },
+      { "minute": 36, "amount": 58 }, { "minute": 37, "amount": 56 }, { "minute": 38, "amount": 55 }, { "minute": 39, "amount": 57 }, { "minute": 40, "amount": 60 },
+      { "minute": 41, "amount": 64 }, { "minute": 42, "amount": 68 }, { "minute": 43, "amount": 72 }, { "minute": 44, "amount": 75 }, { "minute": 45, "amount": 72 },
+      { "minute": 46, "amount": 68 }, { "minute": 47, "amount": 64 }, { "minute": 48, "amount": 60 }, { "minute": 49, "amount": 58 }, { "minute": 50, "amount": 56 },
+      { "minute": 51, "amount": 55 }, { "minute": 52, "amount": 57 }, { "minute": 53, "amount": 60 }, { "minute": 54, "amount": 63 }, { "minute": 55, "amount": 66 },
+      { "minute": 56, "amount": 68 }, { "minute": 57, "amount": 70 }, { "minute": 58, "amount": 72 }, { "minute": 59, "amount": 68 }, { "minute": 60, "amount": 64 }
+    ]
+  }
+]
