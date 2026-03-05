@@ -8,7 +8,7 @@ export class CaesarStrategy implements EncryptionStrategy {
   encrypt(text: string): string {
     return [...text]
       .map((c) => String.fromCharCode(c.charCodeAt(0) + this.shift))
-      .join("");
+      .join("d");
   }
 
   decrypt(text: string): string {
